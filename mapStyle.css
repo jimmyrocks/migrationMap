@@ -14,9 +14,57 @@
 }
 
 path:hover {
-    fill: orange;
-    fill-opacity: .5;
+    stroke: #000;
+}
 
+#infoWindow {
+    display: none;
+    position: absolute;
+    width: 150px;
+    line-height: 20px;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: rgb(187, 187, 187);
+    border: 2px solid rgb(136, 136, 136);
+    border-radius: 15px;
+    text-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;
+}
+
+#formulaWindow {
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    display: block;
+    width: 105px;
+    line-height: 20px;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: rgb(187, 187, 187);
+    border: 2px solid rgb(136, 136, 136);
+    border-radius: 15px;
+    text-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;
+}
+
+#titleBar {
+    top: 3px;
+    left: 200px;
+    width: 600px;
+    position: absolute;
+    display: block;
+    line-height: 20pt;
+    font-size: 22pt;
+    text-align: center;
+}
+
+
+.ui-button-text {
+    font-size: .9em;
 }
 
 .blue0-9 { fill:rgb(247,251,255); }
@@ -48,3 +96,5 @@ path:hover {
 .green6-9 { fill:rgb(33,181,113); }
 .green7-9 { fill:rgb(8,156,81); }
 .green8-9 { fill:rgb(8,107,48); }
+
+.null-9 {fill: orange; }

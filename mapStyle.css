@@ -1,0 +1,50 @@
+.background {
+    fill: none;
+    pointer-events: all;
+}
+
+#states {
+    fill: #aaa;
+    stroke: #bbb;
+    stroke-width: 1.5px;
+}
+
+#states .active {
+    fill: orange;
+}
+
+path:hover {
+    fill: orange;
+    fill-opacity: .5;
+
+}
+
+.blue0-9 { fill:rgb(247,251,255); }
+.blue1-9 { fill:rgb(222,235,247); }
+.blue2-9 { fill:rgb(198,219,239); }
+.blue3-9 { fill:rgb(158,202,225); }
+.blue4-9 { fill:rgb(107,174,214); }
+.blue5-9 { fill:rgb(66,146,198); }
+.blue6-9 { fill:rgb(33,113,181); }
+.blue7-9 { fill:rgb(8,81,156); }
+.blue8-9 { fill:rgb(8,48,107); }
+
+.red0-9 { fill:rgb(255,251,247); }
+.red1-9 { fill:rgb(247,235,222); }
+.red2-9 { fill:rgb(239,219,198); }
+.red3-9 { fill:rgb(225,202,158); }
+.red4-9 { fill:rgb(214,174,107); }
+.red5-9 { fill:rgb(198,146,66); }
+.red6-9 { fill:rgb(181,113,33); }
+.red7-9 { fill:rgb(156,81,8); }
+.red8-9 { fill:rgb(107,48,8); }
+
+.green0-9 { fill:rgb(247,255,251); }
+.green1-9 { fill:rgb(222,247,235); }
+.green2-9 { fill:rgb(198,239,219); }
+.green3-9 { fill:rgb(158,225,202); }
+.green4-9 { fill:rgb(107,214,174); }
+.green5-9 { fill:rgb(66,198,146); }
+.green6-9 { fill:rgb(33,181,113); }
+.green7-9 { fill:rgb(8,156,81); }
+.green8-9 { fill:rgb(8,107,48); }

@@ -156,7 +156,7 @@ var addMap = function(width, height) {
 
     //Load the files
     queue()
-        .defer (d3.json, "states.json")
+        .defer (d3.json, "states.geojson")
         .defer (d3.json, "data/2011.json")
         .await(drawFirstMap);
 

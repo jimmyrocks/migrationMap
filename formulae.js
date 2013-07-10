@@ -15,7 +15,7 @@ var formulae = function(s) {
                 return d[s][v];
             },
             "name": function(v) {
-                return "People from " + v + " who moved to " + s
+                return "Number of people from " + v + " who moved to " + s + " in 2011"
             },
             "s": s,
             "button": {
@@ -29,7 +29,7 @@ var formulae = function(s) {
                 return d[s][v]/d[v]["Population"]
             },
             "name": function(v) {
-                return "Percent of people from " + v + " who moved to " + s;
+                return "Percent of people from " + v + " who moved to " + s + " in 2011";
             },
             "s": s,
             "button": {
@@ -42,7 +42,8 @@ var formulae = function(s) {
                 return d[v][s];
             },
             "name": function(v) {
-                return "People from who moved from " + s + " to " + v                    },
+                return "Number of people who moved from " + s + " to " + v  + " in 2011";
+            },
             "s": s,
              "button": {
                 "name": "# Moved From",
@@ -54,7 +55,7 @@ var formulae = function(s) {
                 return d[v][s]/d[v]["Population"]
             },
             "name": function(v) {
-                return "Percent of people in " + v + " who moved from " + s;
+                return "Percent of people in " + v + " who moved there from " + s + " in 2011";
             },
             "s": s,
             "button": {

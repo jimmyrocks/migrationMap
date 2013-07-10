@@ -112,7 +112,7 @@ var addMap = function(width, height) {
                 $('#infoWindow').hide();
             };
             svg.selectAll("path").sort(function (a, b){
-                if (a.id != d.id) return -1;
+                if (a.properties.GEO_ID != d.properties.GEO_ID) return -1;
                 else return 1;
             });
         };
